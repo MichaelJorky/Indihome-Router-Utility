@@ -27,7 +27,7 @@ Sabtu 6 April 2024 - First Release
 3. Pindahkan file yang sudah berhasil didownload pada folder ```.zte-decoder``` seperti yang sudah dibahas pada laman (point 1) lalu ekstract.
 4. Untuk default script decodingnya maupun encodingnya menggunakan script seperti yang sudah dibahas pada (point 1) atau seperti yang tercantum dibawah ini:
 
-<b>Default Decoder List:</b>
+<b>Default Decoder List (42 List):</b>
 ```
 python autodecoder.py config/config.bin config/config.xml
 python autodecoder.py --model "F670L" config/config.bin config/config.xml
@@ -72,7 +72,7 @@ python unidecoder.py --serial ZTE123456789 config/config.bin config/config.xml
 python unidecoder.py --model "F670L" config/config.bin config/config.xml
 python unidecoder.py --signature "ZXHN F670L V9.0" config/config.bin config/config.xml
 ```
-<b>Default Encoder List:</b>
+<b>Default Encoder List (23 List):</b>
 ```
 python uniencoder.py --key-prefix CEFD0000000000174654 --signature "ZXHN F670L V9.0" --serial ZTE123456789 config/config.xml config/new.config.bin
 python uniencoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature "ZXHN F670L V9.0" --serial ZTEGCEFD0000 config/config.xml config/new.config.bin
