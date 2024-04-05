@@ -54,12 +54,12 @@ python decoder.py --key 'jjww' config/config.bin config/config.xml
 python decoder.py --signature "F670L" config/config.bin config/config.xml
 python decoder.py config/config.bin config/config.xml
 python unidecoder.py --key-prefix CEFD1234567890123456 --try-all-known-keys --serial ZTE123456789 config/config.bin config/config.xml
-python unidecoder.py --key-prefix CEFD1234567890123456 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.bin config/config.xml
+python unidecoder.py --key-prefix CEFD1234567890123456 --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.bin config/config.xml
 python unidecoder.py --key-suffix 14e1b600b1fd579f47433b88e8d85291 --try-all-known-keys --serial ZTE123456789 config/config.bin config/config.xml
-python unidecoder.py --key-suffix 14e1b600b1fd579f47433b88e8d85291 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.bin config/config.xml
+python unidecoder.py --key-suffix 14e1b600b1fd579f47433b88e8d85291 --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.bin config/config.xml
 python unidecoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --try-all-known-keys --serial ZTE123456789 config/config.bin config/config.xml
-python unidecoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.bin config/config.xml
-python unidecoder.py --try-all-known-keys --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.bin config/config.xml
+python unidecoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.bin config/config.xml
+python unidecoder.py --try-all-known-keys --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.bin config/config.xml
 python unidecoder.py config/config.bin config/config.xml
 python unidecoder.py --longpass '' config/config.bin config/config.xml
 python unidecoder.py --serial " " config/config.bin config/config.xml
@@ -70,23 +70,23 @@ python unidecoder.py --try-all-known-keys config/config.bin config/config.xml
 python unidecoder.py --key 'jjww' config/config.bin config/config.xml
 python unidecoder.py --serial ZTE123456789 config/config.bin config/config.xml
 python unidecoder.py --model "F609" config/config.bin config/config.xml
-python unidecoder.py --signature "ZXHN F609 V5.2" config/config.bin config/config.xml
+python unidecoder.py --signature "ZXHN F670 V9.0" config/config.bin config/config.xml
 ```
 <b>Default Encoder List:</b>
 ```
-python uniencoder.py --key-prefix CEFD1234567890123456 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.xml config/new.config.bin
-python uniencoder.py --key-suffix 14e1b600b1fd579f47433b88e8d85291 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.xml config/new.config.bin
-python uniencoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --signature "ZXHN F609 V5.2" --serial ZTE123456789 config/config.xml config/new.config.bin
-python uniencoder.py --signature ZXHN F609 V5.2 --payload-type 0 config/config.xml config/new.config.bin
-python uniencoder.py --signature ZXHN F609 V5.2 --payload-type 2 config/config.xml config/new.config.bin
-python uniencoder.py --signature ZXHN F609 V5.2 --payload-type 4 config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" --version 1 --include-header config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" --version 2 --include-header config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" --include-unencrypted-length --include-header config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" --use-signature-encryption config/config.xml config/new.config.bin
-python uniencoder.py --signature "ZXHN F609 V5.2" --include-header config/config.xml config/new.config.bin
-python uniencoder.py --serial ZTE123456789 --signature "ZXHN F609 V5.2" config/config.xml config/new.config.bin
+python uniencoder.py --key-prefix CEFD1234567890123456 --signature "ZXHN F670L V9.0" --serial ZTE123456789 config/config.xml config/new.config.bin
+python uniencoder.py --key-suffix 14e1b600b1fd579f47433b88e8d85291 --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.xml config/new.config.bin
+python uniencoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --signature "ZXHN F670 V9.0" --serial ZTE123456789 config/config.xml config/new.config.bin
+python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 0 config/config.xml config/new.config.bin
+python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 2 config/config.xml config/new.config.bin
+python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 4 config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" --version 1 --include-header config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" --version 2 --include-header config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" --include-unencrypted-length --include-header config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" --use-signature-encryption config/config.xml config/new.config.bin
+python uniencoder.py --signature "ZXHN F670 V9.0" --include-header config/config.xml config/new.config.bin
+python uniencoder.py --serial ZTE123456789 --signature "ZXHN F670 V9.0" config/config.xml config/new.config.bin
 python uniencoder.py --serial ZTE123456789 --signature " " config/config.xml config/new.config.bin
 python uniencoder.py --serial ZTE123456789 --model "F609" config/config.xml config/new.config.bin
 python uniencoder.py --model "F609" config/config.xml config/new.config.bin
@@ -94,8 +94,8 @@ python uniencoder.py --include-header --version 1 config/config.xml config/new.c
 python uniencoder.py --include-header --version 2 config/config.xml config/new.config.bin
 python uniencoder.py --include-header --include-unencrypted-length config/config.xml config/new.config.bin
 python uniencoder.py --include-header config/config.xml config/new.config.bin
-python uniencoder.py --key 'jjxx' --signature 'ZXHN F609 V5.2' --include-header config/config.xml config/new.config.bin
-python uniencoder.py --key 'jjxx' --signature 'ZXHN F609 V5.2' --version 1 --include-header config/config.xml config/new.config.bin
+python uniencoder.py --key 'jjxx' --signature 'ZXHN F670 V9.0' --include-header config/config.xml config/new.config.bin
+python uniencoder.py --key 'jjxx' --signature 'ZXHN F670 V9.0' --version 1 --include-header config/config.xml config/new.config.bin
 ```
 
 
