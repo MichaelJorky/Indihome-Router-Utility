@@ -111,15 +111,15 @@ python uniencoder.py --key '2bf3525fd2dcc7fe' --signature 'ZXHN F670L V9.0' --ve
 - --iv-suffix dedb7b84041d5f10bfe84bca2a165e39
 - --try-all-known-keys
 
-6. Decoder yang dihasilkan dari "Decoder Generator":
+6. Decoder yang dihasilkan dari "Decoder Generator" Total ada 1-11 Kombinasi:
 
-~ 0 Kombinasi
+~ 0 Kombinasi (3 List)
 ```
 autodecoder.py config/config.bin config/config.xml
 decoder.py config/config.bin config/config.xml
 unidecoder.py config/config.bin config/config.xml
 ```
-~ 1 Kombinasi
+~ 1 Kombinasi (33 List)
 ```
 autodecoder.py --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
 autodecoder.py --signature ZXHN F670L V9.0 config/config.bin config/config.xml
@@ -155,7 +155,7 @@ unidecoder.py --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
 unidecoder.py --serial ZTEGCEFD0000 config/config.bin config/config.xml
 unidecoder.py --longpass Telkomdso123 config/config.bin config/config.xml
 ```
-~ 2 Kombinasi
+~ 2 Kombinasi (327 List)
 ```
 autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
 autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
@@ -485,30 +485,3430 @@ unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config
 unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
 unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
 ```
-~ 3 Kombinasi
+~ 3 Kombinasi (1974 List)
 ```
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
 ```
-~ 4 Kombinasi
+~ 4 Kombinasi (1443 List)
 ```
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+autodecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+autodecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+autodecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+autodecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+autodecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+autodecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+decoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+decoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+decoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+decoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+decoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+decoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key 2bf3525fd2dcc7fe --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --model F670L --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --model F670L --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --model F670L --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --model F670L --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --model F670L --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --key 2bf3525fd2dcc7fe --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --model F670L --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key-prefix CEFD0000000000174654 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --try-all-known-keys --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --model F670L --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-prefix CEFD0000000000174654 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --mac 60:E5:D8:00:00:00 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --signature ZXHN F670L V9.0 --model F670L --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --longpass Telkomdso123 --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --try-all-known-keys --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --try-all-known-keys --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --longpass Telkomdso123 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key 2bf3525fd2dcc7fe --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --mac 60:E5:D8:00:00:00 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --serial ZTEGCEFD0000 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --try-all-known-keys --iv-prefix ZTE%FN$GponNJ025 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key-prefix CEFD0000000000174654 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --serial ZTEGCEFD0000 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --mac 60:E5:D8:00:00:00 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 --model F670L config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --mac 60:E5:D8:00:00:00 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --iv-prefix ZTE%FN$GponNJ025 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --longpass Telkomdso123 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --try-all-known-keys --longpass Telkomdso123 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --mac 60:E5:D8:00:00:00 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --serial ZTEGCEFD0000 config/config.bin config/config.xml
+unidecoder.py --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --longpass Telkomdso123 --model F670L --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --signature ZXHN F670L V9.0 --serial ZTEGCEFD0000 --model F670L --iv-prefix ZTE%FN$GponNJ025 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --model F670L config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --serial ZTEGCEFD0000 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --iv-prefix ZTE%FN$GponNJ025 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --signature ZXHN F670L V9.0 --key-suffix 574ffbb30a488a9e2d583a86719400a7 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --iv-prefix ZTE%FN$GponNJ025 --key 2bf3525fd2dcc7fe --longpass Telkomdso123 config/config.bin config/config.xml
+unidecoder.py --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --try-all-known-keys config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --longpass Telkomdso123 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --model F670L --mac 60:E5:D8:00:00:00 --iv-prefix ZTE%FN$GponNJ025 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --key 2bf3525fd2dcc7fe --signature ZXHN F670L V9.0 --mac 60:E5:D8:00:00:00 config/config.bin config/config.xml
+unidecoder.py --model F670L --key-suffix 574ffbb30a488a9e2d583a86719400a7 --key-prefix CEFD0000000000174654 --signature ZXHN F670L V9.0 config/config.bin config/config.xml
+unidecoder.py --serial ZTEGCEFD0000 --iv-prefix ZTE%FN$GponNJ025 --mac 60:E5:D8:00:00:00 --key-prefix CEFD0000000000174654 config/config.bin config/config.xml
+unidecoder.py --key 2bf3525fd2dcc7fe --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key-suffix 574ffbb30a488a9e2d583a86719400a7 --model F670L config/config.bin config/config.xml
+unidecoder.py --longpass Telkomdso123 --key-prefix CEFD0000000000174654 --iv-suffix dedb7b84041d5f10bfe84bca2a165e39 --key 2bf3525fd2dcc7fe config/config.bin config/config.xml
 ```
-~ 5 Kombinasi
+6. Encoder yang dihasilkan dari "Encoder Generator" (Segera):
 ```
-```
-~ 6 Kombinasi
-```
-```
-~ 7 Kombinasi
-```
-```
-~ 8 Kombinasi
-```
-```
-~ 9 Kombinasi
-```
-```
-~ 10 Kombinasi
-```
-```
-~ 11 Kombinasi
-```
+Segera
 ```
