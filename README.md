@@ -2,7 +2,7 @@
 
 Indihome Router Utility adalah alat Decoder dan Encoder config pada router seperti zte, huawei, tp-link, d-link, tenda, fiberhome dll dan alat ini baru disempurnakan untuk router zte, dengan alat ini Anda tidak perlu bersusah payah untuk mencari seputar isi konfigurasi pada router di rumah Anda.
 
-![alt text](https://github.com/MichaelJorky/Indihome-Router-Utility/blob/main/img/allimg.jpg?raw=true)
+![alt text](https://github.com/MichaelJorky/Indihome-Router-Utility/blob/main/img/blueallimg.jpg?raw=true)
 #
 Fitur yang ada pada Aplikasi Indihome Router Utility.exe 
 - Decoder/Decrypt
