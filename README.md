@@ -80,6 +80,7 @@ python uniencoder.py --iv-suffix 3acf16259def65456fc2a68ab5e10d96 --signature "Z
 python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 0 config/config.xml config/new.config.bin
 python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 2 config/config.xml config/new.config.bin
 python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 4 config/config.xml config/new.config.bin
+python uniencoder.py --signature ZXHN F670 V9.0 --payload-type 6 config/config.xml config/new.config.bin
 python uniencoder.py --signature "ZXHN F670 V9.0" config/config.xml config/new.config.bin
 python uniencoder.py --signature "ZXHN F670 V9.0" --version 1 --include-header config/config.xml config/new.config.bin
 python uniencoder.py --signature "ZXHN F670 V9.0" --version 2 --include-header config/config.xml config/new.config.bin
