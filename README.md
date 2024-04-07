@@ -9,7 +9,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - Encoder/Encrypt
 - Decoder Generator
 - Encoder Generator
-- Router Login (Fake UA Android, Fake UA iOs, Fake UA, Linux, Fake UA Windows, Fake UA Ubuntu, Fake UA Debian, Fake UA Mac OS, Fake UA Chromium OS
+- Router ADC (Auto Download Configuration)
 - Ping
 - Trace Route
 - Port Checker
