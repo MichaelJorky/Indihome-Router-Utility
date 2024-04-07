@@ -20,8 +20,9 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - Hash Identifier
 - Password Generator
 
-~ (v1.0.0.1)
-Sabtu 6 April 2024 - First Release
+~ (v1.0.0.1) Sabtu 6 April 2024 - First Release
+
+~ (v1.0.0.2) Sabtu 8 April 2024 - Penambahan fitur Router ADC (Auto Download Configuration)
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
