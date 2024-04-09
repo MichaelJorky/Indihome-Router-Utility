@@ -17,13 +17,15 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - SSH Utility
 - Mac Address Generator
 - Hash Type Identifier
-- Password Generator
+- MD5 Password Generator
 
 ~ (v1.0.0.1) Sabtu 6 April 2024 - First Release
 
 ~ (v1.0.0.2) Senin 8 April 2024 - Penambahan fitur Router ADC (Auto Download Configuration)
 
 ~ (v1.0.0.3) Selasa 9 April 2024 - Penambahan fitur Mac Address Generator
+
+~ (v1.0.0.4) Selasa 9 April 2024 - Penambahan fitur MD5 Password Generator
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
