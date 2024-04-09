@@ -32,6 +32,8 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 ~ (v1.0.0.5) Rabu 10 April 2024 - Penambahan fitur Grab Proxy List Server
 
 ~ (v1.0.0.6) Rabu 10 April 2024 - Penambahan fitur HTTP Header Checker
+
+~ (v1.0.0.7) Rabu 10 April 2024 - Penambahan fitur Telnet Utility
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
