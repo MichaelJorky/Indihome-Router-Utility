@@ -5,8 +5,8 @@ Indihome Router Utility adalah alat Decoder dan Encoder config pada router seper
 ![alt text](https://github.com/MichaelJorky/Indihome-Router-Utility/blob/main/img/blueallimg.jpg?raw=true)
 #
 Fitur yang ada pada Aplikasi Indihome Router Utility.exe 
-- Decoder/Decrypt
-- Encoder/Encrypt
+- Decoder & Decrypt Tools
+- Encoder & Encrypt Tools
 - Decoder Generator
 - Encoder Generator
 - Router ADC (Auto Download Configuration)
