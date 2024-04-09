@@ -10,19 +10,20 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - Decoder Generator
 - Encoder Generator
 - Router ADC (Auto Download Configuration)
-- Ping
-- Trace Route
+- Ping & Trace Route
 - Port Checker
-- FTP
-- Telnet
-- SSH
-- Mac Generator
-- Hash Identifier
+- FTP Utility
+- Telnet Utility
+- SSH Utility
+- Mac Address Generator
+- Hash Type Identifier
 - Password Generator
 
 ~ (v1.0.0.1) Sabtu 6 April 2024 - First Release
 
 ~ (v1.0.0.2) Senin 8 April 2024 - Penambahan fitur Router ADC (Auto Download Configuration)
+
+~ (v1.0.0.3) Selasa 9 April 2024 - Penambahan fitur Mac Address Generator
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
