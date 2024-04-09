@@ -15,7 +15,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - FTP Utility
 - Telnet Utility
 - SSH Utility
-- Proxy List Server
+- Grab Proxy List Server
 - Mac Address Generator
 - Hash Type Identifier
 - MD5 Password Generator
@@ -28,7 +28,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 
 ~ (v1.0.0.4) Selasa 9 April 2024 - Penambahan fitur MD5 Password Generator
 
-~ (v1.0.0.5) Rabu 10 April 2024 - Penambahan fitur Proxy List Server
+~ (v1.0.0.5) Rabu 10 April 2024 - Penambahan fitur Grab Proxy List Server
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
