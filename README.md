@@ -38,6 +38,8 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 ~ (v1.0.0.8) Rabu 10 April 2024 - Penambahan fitur Multi Open Port Checker
 
 ~ (v1.0.0.9) Kamis 11 April 2024 - Penambahan fitur Decoder Generator
+
+~ (v1.0.1.0) Kamis 11 April 2024 - Penambahan fitur Encoder Generator
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
