@@ -21,7 +21,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - MD5 Password Generator
 - HTTP Header Checker
 
-~ (v1.0.0.1) Sabtu 6 April 2024 - First Release
+~ (v1.0.0.1) Sabtu 6 April 2024 - First Release Decoder Utility
 
 ~ (v1.0.0.2) Senin 8 April 2024 - Penambahan fitur Router ADC (Auto Download Configuration)
 
@@ -40,6 +40,8 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 ~ (v1.0.0.9) Kamis 11 April 2024 - Penambahan fitur Decoder Generator
 
 ~ (v1.0.1.0) Kamis 11 April 2024 - Penambahan fitur Encoder Generator
+
+~ (v1.0.1.1) Sabtu 13 April 2024 - Penambahan fitur Encoder Utility
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
