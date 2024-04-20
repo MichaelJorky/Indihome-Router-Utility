@@ -46,7 +46,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 ~ (v1.0.1.2) Sabtu 13 April 2024 - Penambahan fitur Ping Tracert Utility
 #
 <b>Panduan Cara Penggunaan:</b>
-1. Pastikan sebelumnya sudah menginstal "Indihome Router Decoder Encoder" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
+1. Pastikan sebelumnya sudah menginstal "Indihome Decoder Utility" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
 2. Download "Indihome Router Utility.exe" atau "iru-gui.exe" caranya arahkan cursor pada bagian "code" pada "local" pilih "download zip".
 3. Pindahkan file yang sudah berhasil didownload pada folder ```.zte-decoder``` seperti yang sudah dibahas pada laman (point 1) lalu ekstract.
 4. Untuk default script decodingnya maupun encodingnya menggunakan script seperti yang sudah dibahas pada (point 1) atau seperti yang tercantum dibawah ini:
