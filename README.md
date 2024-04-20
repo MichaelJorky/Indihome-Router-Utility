@@ -44,7 +44,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 
 ~ (v1.0.1.2) Sabtu 13 April 2024 - Penambahan fitur Ping Tracert Utility
 
-~ (v1.0.1.3) Sabtu 20 April 2024 - Penambahan fitur Auto Save Configuration
+~ (v1.0.1.3) Sabtu 20 April 2024 - Perbaikan fitur Auto Save Configuration
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Decoder Utility" yang ada disini https://github.com/MichaelJorky/indihome-router-decoder
