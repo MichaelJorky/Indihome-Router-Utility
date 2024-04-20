@@ -77,18 +77,19 @@ encoder1.py --serial ZTE123456789 --signature 'F670L' config/config.xml config/n
 encoder1.py --signature 'F670L' --use-signature-encryption config/config.xml config/new.config.bin
 ```
 5. Untuk decoding support penggunaan perintah seperti contoh yang tercantum dibawah ini:
-- --key 2bf3525fd2dcc7fe
-- --model F670L
-- --serial ZTE123456789
-- --mac AA:BB:CC:DD:EE:FF
-- --longpass Telkomdso123
-- --signature ZXHN F670L V9.0
-- --key-prefix CEFD0000000000174654
-- --iv-prefix ZTE%FN$GponNJ025
-- --key-suffix 574ffbb30a488a9e2d583a86719400a7
-- --iv-suffix dedb7b84041d5f10bfe84bca2a165e39
-- --try-all-known-keys
-
+```
+--key 2bf3525fd2dcc7fe
+--model F670L
+--serial ZTE123456789
+--mac AA:BB:CC:DD:EE:FF
+--longpass Telkomdso123
+--signature ZXHN F670L V9.0
+--key-prefix CEFD0000000000174654
+--iv-prefix ZTE%FN$GponNJ025
+--key-suffix 574ffbb30a488a9e2d583a86719400a7
+--iv-suffix dedb7b84041d5f10bfe84bca2a165e39
+--try-all-known-keys
+```
 6. Decoder yang dihasilkan dari "Decoder Generator" Total ada 0-11 Kombinasi:
 
 ~ 0 Kombinasi (3 List)
