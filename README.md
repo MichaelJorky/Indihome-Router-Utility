@@ -19,6 +19,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - Hash Type Identifier
 - MD5 Password Generator
 - HTTP Header Checker
+- Compare Text Utility
 
 ~ (v1.0.0.1) Sabtu 6 April 2024 - First Release Decoder Utility
 
