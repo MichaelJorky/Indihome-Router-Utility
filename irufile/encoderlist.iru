@@ -1,0 +1,1 @@
+encoder1.py --model "" config/config.xml config/new.config.bin

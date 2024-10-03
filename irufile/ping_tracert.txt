@@ -1,0 +1,8 @@
+192.168.1.1
+yandex.com
+yahoo.com
+google.com
+bing.com
+youtube.com
+tiktok.com
+facebook.com
