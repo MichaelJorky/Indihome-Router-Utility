@@ -23,35 +23,6 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 - HTTP Header Checker
 - Compare Text Utility
 
-~ (v1.0.0.1) Sabtu 6 April 2024 - First Release Decoder Utility
-
-~ (v1.0.0.2) Senin 8 April 2024 - Penambahan fitur Router ADC (Auto Download Configuration)
-
-~ (v1.0.0.3) Selasa 9 April 2024 - Penambahan fitur Mac Address Generator
-
-~ (v1.0.0.4) Selasa 9 April 2024 - Penambahan fitur MD5 Password Generator
-
-~ (v1.0.0.5) Rabu 10 April 2024 - Penambahan fitur Grab Proxy List Server
-
-~ (v1.0.0.6) Rabu 10 April 2024 - Penambahan fitur HTTP Header Checker
-
-~ (v1.0.0.7) Rabu 10 April 2024 - Penambahan fitur Telnet Utility
-
-~ (v1.0.0.8) Rabu 10 April 2024 - Penambahan fitur Multi Open Port Checker
-
-~ (v1.0.0.9) Kamis 11 April 2024 - Penambahan fitur Decoder Generator
-
-~ (v1.0.1.0) Kamis 11 April 2024 - Penambahan fitur Encoder Generator
-
-~ (v1.0.1.1) Sabtu 13 April 2024 - Penambahan fitur Encoder Utility
-
-~ (v1.0.1.2) Sabtu 13 April 2024 - Penambahan fitur Ping Tracert Utility
-
-~ (v1.0.1.3) Sabtu 20 April 2024 - Perbaikan fitur Auto Save Configuration
-
-~ (v1.0.1.4) Senin 22 April 2024 - Penambahan fitur Compare Text Utility
-
-~ (v1.0.1.5) Senin 16 Desember 2024 - Perbaikan Bug API Windows
 #
 <b>Panduan Cara Penggunaan:</b>
 1. Pastikan sebelumnya sudah menginstal "Indihome Decoder Utility" yang pernah dibahas disini https://github.com/MichaelJorky/indihome-router-decoder
