@@ -25,7 +25,7 @@ Fitur yang ada pada Aplikasi Indihome Router Utility.exe
 
 #
 <b>Panduan Cara Penggunaan:</b>
-1. Pastikan sebelumnya sudah menginstal "Indihome Decoder Utility" yang pernah dibahas disini https://github.com/MichaelJorky/indihome-router-decoder
+1. Pastikan sebelumnya sudah menginstal "Indihome Decoder Utility" yang pernah dibahas disini https://github.com/MichaelJorky/Indihome-Decoder-Encoder-Utility
 2. Download "Indihome Router Utility" caranya arahkan cursor pada bagian "code" pada "local" pilih "download zip".
 3. Lalu ekstrak filenya kemudian copy isi file yang ada didalam folder "Indihome-Router-Utility-main" lalu pastekan pada folder ```.zte-decoder``` (point 1).
 4. Untuk default script decodingnya maupun encodingnya menggunakan script seperti yang sudah dibahas pada (point 1) atau seperti yang tercantum dibawah ini:
