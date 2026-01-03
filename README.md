@@ -152,5 +152,3 @@ Jika project ini membantu:
 * 💡 Kirim saran
 
 Terima kasih sudah menggunakan **Indihome Router Utility**.
-
-```
