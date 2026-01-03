@@ -1,4 +1,4 @@
-# Indihome Router Utility (Maintenance)
+# Indihome / ZTE Router Utility (Maintenance)
 
 > **Peringatan:** 🔴  
 > Alat ini dibuat untuk keperluan **edukasi dan penelitian**.  
