@@ -5,7 +5,7 @@
 > Penulis tidak bertanggung jawab atas penyalahgunaan atau kerusakan yang timbul.  
 > Gunakan hanya pada perangkat dan jaringan yang Anda miliki izin resmi.
 
-Indihome Router Utility adalah aplikasi **GUI (Graphical User Interface)** untuk membantu proses **decode dan encode konfigurasi router**, khususnya router **OEM ZTE (Indihome, Telkomsel One, PLDT, GLOBE, MyRepublic, Biznet, MNC Play, XL Satu)**, serta berbagai utilitas jaringan pendukung.
+Indihome Router Utility adalah aplikasi **GUI (Graphical User Interface)** untuk membantu proses **decode dan encode konfigurasi router**, khususnya router **OEM ZTE (IndiHome (Telkomsel), MNC Play, MyRepublic, Oxygen.id, PLDT, GLOBE, Biznet, ICONNET (PLN), XL Home, First Media, Megavision, iForte & Corpnet)**, serta berbagai utilitas jaringan pendukung.
 
 ---
 
